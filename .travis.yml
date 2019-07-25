@@ -8,7 +8,7 @@ script:
 after_success:
 - bash <(curl -s https://codecov.io/bash)
 addons:
- sonarcloud:
-   organization: prabhakar23
-   token:
-     secure: 8d5dfd1fbb3edd9308d0d0700fae6d64829969df
+  sonarcloud:
+    organization: "prabhakar23"
+    token:
+      secure: "d24f4e93a1505cd16c5e40bdac0643945da49098" # encrypted value of your token
