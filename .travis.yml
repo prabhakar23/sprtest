@@ -11,4 +11,4 @@ addons:
   sonarcloud:
     organization: "prabhakar23"
     token:
-      secure: "d24f4e93a1505cd16c5e40bdac0643945da49098" # encrypted value of your token
+      secure: "8dfc0f96c38438f8b571d77b14bc25de15153c3a" # encrypted value of your token
