@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+sprtest,com.kgisl.sprtest.model,Car,6,11,0,0,2,5,2,3,2,3
+sprtest,com.kgisl.sprtest.service,CarServiceImp,16,3,0,0,2,1,1,1,1,1
+sprtest,com.kgisl.sprtest.controller,CarController,0,7,0,0,0,2,0,2,0,2
+sprtest,com.kgisl.sprtest,SprtestApplication,5,3,0,0,2,1,1,1,1,1

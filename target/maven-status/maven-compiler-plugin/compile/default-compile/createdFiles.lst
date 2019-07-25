@@ -1,0 +1,6 @@
+com\kgisl\sprtest\model\Car.class
+com\kgisl\sprtest\repository\CarRepository.class
+com\kgisl\sprtest\service\CarServiceImp.class
+com\kgisl\sprtest\SprtestApplication.class
+com\kgisl\sprtest\service\CarService.class
+com\kgisl\sprtest\controller\CarController.class
