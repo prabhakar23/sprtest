@@ -9,6 +9,6 @@ after_success:
 - bash <(curl -s https://codecov.io/bash)
 addons:
 sonarcloud:
-  organization: prabhakar23
+  organization: prabhakar2320
   token:
-    secure: bb40cfab75017fb721f9426b01befd22527b7abf
+    secure: 5ca0cfa483c6deff30028e466a5368495d361625
