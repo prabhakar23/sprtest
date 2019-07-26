@@ -2,13 +2,17 @@ language: java
 sudo: false # faster builds
 before_install:
 - chmod +x mvnw
-script:
-- "./mvnw clean install -B"
-- "./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar"
+# script:
+# - "./mvnw clean install -B"
+# - "./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar"
 after_success:
 - bash <(curl -s https://codecov.io/bash)
-addons:
- sonarcloud:
-   organization: prabhakar23-github
-   token:
-     secure: a1c1a29f317e1f44f58560cf99243655fffd3600
+# addons:
+#  sonarcloud:
+#    organization: prabhakar23-github
+#    token:
+#      secure: a1c1a29f317e1f44f58560cf99243655fffd3600
+deploy:
+provider: heroku
+api_key: 4c5b57ba-e849-428a-ab31-5cb5e3bb2c77
+app: sprtest
