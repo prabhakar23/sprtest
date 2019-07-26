@@ -11,4 +11,4 @@ addons:
  sonarcloud:
    organization: prabhakar23-github
    token:
-     secure: ef552d18f20dec6f6bc30fb56443501605b9af49
+     secure: a1c1a29f317e1f44f58560cf99243655fffd3600
