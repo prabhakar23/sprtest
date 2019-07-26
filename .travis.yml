@@ -14,5 +14,5 @@ after_success:
 #      secure: a1c1a29f317e1f44f58560cf99243655fffd3600
 deploy:
 provider: heroku
-api_key: 4c5b57ba-e849-428a-ab31-5cb5e3bb2c77
-app: sprtest
+api_key:9f3e36c8-2d61-4314-892f-186eecc443bd
+app: sprtest23
