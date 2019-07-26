@@ -3,12 +3,12 @@ sudo: false # faster builds
 before_install:
 - chmod +x mvnw
 script:
-# - "./mvnw clean install -B"
+- "./mvnw clean install -B"
 - "./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar"
 after_success:
 - bash <(curl -s https://codecov.io/bash)
 addons:
-sonarcloud:
-  organization: prabhakar23-github
-  token:
-    secure: ef552d18f20dec6f6bc30fb56443501605b9af49
+ sonarcloud:
+   organization: prabhakar23-github
+   token:
+     secure: ef552d18f20dec6f6bc30fb56443501605b9af49
